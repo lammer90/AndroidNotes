@@ -35,6 +35,7 @@ public class NotesContract implements BaseColumns{
         public static final String[] LIST_PROJECTION = {
                 _ID,
                 COLUMN_TITLE,
+                COLUMN_NOTE,
                 COLUMN_CREATED_TS,
                 COLUMN_UPDATED_TS
         };
